@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learnalytics</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+      <div class="navbar__container">
+        <a href="#home" id="navbar__logo" class="navbar__logo"><img src="/Images/logo.png"></a>
+        <div class="navbar__toggle" id="mobile-menu">
+          <span class="bar"></span> 
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+          <li class="navbar__item">
+            <a href="#home" class="navbar__links" id="home-page">Home</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#about" class="navbar__links" id="about-page">About</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+          </li>
+          <li class="navbar__item">
+            <a href="#contact" class="navbar__links " id="contact-page">Contact Us</a>
+        </li>
+          <li class="navbar__btn">
+            <a href="#signup" class="button" id="signup">Sign Up</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+      <div class="hero__container">
+          <h1 class="hero__heading">Welcome To</h1>
+          <h1 class="hero__heading">Learnalytics!</h1>
+          <p class="hero__description"><span>Infinite </span>Learning,<span> Infinite</span> Possibilities</p>
+          <button class="main__btn"><a href="#about">Learn</a></button>
+      </div>
+  </div>
+
+    <!-- About Section -->
+    <div class="main" id="about">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>About Learnalytics</h1>
+          <p>
+            Welcome to Learnalytics, where we believe in the power of education to transform lives. Our mission is to
+            provide high-quality learning experiences for everyone, everywhere.
+          </p>
+          <div class="about__images">
+            <div class="about__image">
+              <h1>Python</h1> 
+              <div class="about__image-container">
+                <img src="/Images/newPython.png" />
+                <p>Python is a versatile and readable high-level programming language widely used for various applications.
+                  
+                </p>
+              </div>
+            </div>
+            <div class="about__image">
+              <h1>SQL</h1> 
+              <div class="about__image-container">
+                <img src="/Images/newSQL.png" />
+                <p>SQL is a specialized language for managing and interacting with relational databases, providing a
+                  standardized way to query and modify data.</p>
+              </div>
+            </div>
+            <div class="about__image">
+              <h1>Information Security</h1> 
+              <div class="about__image-container">
+                <img src="/Images/Security.png" />
+                <p>Information security involves protecting sensitive data from unauthorized access, ensuring
+                  confidentiality and availability.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Review Section-->
+
+    <section class="reviews">
+      <div class="review" id="review1">
+        <div class="review__container">
+          <div class="review__content">
+            <h3>John Doe</h3>
+            <p>"Working with this company was a pleasure. The staff was professional, and the end result exceeded our expectations. Will definitely work with them again!"</p>
+            <div class="rating">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="review" id="review2">
+        <div class="review__container">
+          <div class="review__content">
+            <h3>Jane Smith</h3>
+            <p>"The team went above and beyond to provide excellent service. Quick response times and quality work. I highly recommend them!"</p>
+            <div class="rating">
+              ★★★★★
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Past Projects -->
+    <div class="projects" id="projects">
+      <div class="projects__container">
+        <h1>Past Projects</h1>
+        <p>"Embark on a journey through our portfolio at Learnalytics, a testament to our dedication in bringing impactful solutions to life. Witness the culmination of our past projects, each a story of innovation, expertise."</p>
+        <div class="center">
+          <div class="wrapper">
+            <div class="inner" id="carousel">
+
+              <div class="card">
+                <img src="/Images/project1.png">
+                <div class="content">
+                  <h1>Calculator Project</h1>
+                  <h3>Web Design</h3>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="/Images/project2.png">
+                <div class="content">
+                  <h1>Calendar Project</h1>
+                  <h3>Python program</h3>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="/Images/project3.png">
+                <div class="content">
+                  <h1>Weather Project</h1>
+                  <h3>Python Program</h3>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="/Images/project4.png">
+                <div class="content">
+                  <h1>Chess Project</h1>
+                  <h3>Mulitplayer Game</h3>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="/Images/project5.jpg">
+                <div class="content">
+                  <h1>Email Project</h1>
+                  <h3>Database Design</h3>
+                </div>
+              </div>
+
+              <div class="card">
+                <img src="/Images/project6.png">
+                <div class="content">
+                  <h1>Maps Project</h1>
+                  <h3>Software Design</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+    
+          <div class="map">
+            <button class="active first"></button>
+            <button class="second"></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+<!-- Contact Us -->
+<div class="features" id="features">
+  <div class="features__container">
+    <div class="features__content">
+      <h1>Contact Us</h1>
+      <p>Here you can find all of the nessary details to contact Learnalytics if you have any questions!</p>
+    </div>
+  </div>
+</div>
+
+<section class="contact-section">
+  <div class="contact-container">
+    <div class="left-column">
+      <div class="contact-info">
+        <h2>Information</h2>
+        <p>Address:</p>
+        <p>Llandaff,Western Ave</p>
+        <p>Email:</p>
+        <p>Learnalytics@outlook.com</p>
+        <p>Phone: 07895 786 234</p>
+      </div>
+
+      <div class="newsletter-form">
+        <h2>Sign Up To Learnalytics</h2>
+        <form action="#" method="post">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="map-container">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19865.57838248606!2d-3.2265202325095483!3d51.50959624511058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x486e1cc7d35d3eef%3A0x5afe25c130d18e76!2sCardiff%20Metropolitan%20University!5e0!3m2!1sen!2suk!4v1702401679643!5m2!1sen!2suk" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+    <!-- Footer Section -->
+    <div class="footer__container">
+      <div class="footer__links">
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Navigation</h2>
+            <a href="#home">Home</a> <a href="#about">About</a>
+            <a href="#projects">Projects</a> <a href="#contact">Contact Us</a> <a href="sign-up">Sign up</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Phone Number</h2>
+            <a>Landline:</a> <a>+4467 897 098</a>
+            <a>Phone:</a> <a>+4432 369 124</a>
+          </div>
+        </div>
+        <div class="footer__link--wrapper">
+          <div class="footer__link--items">
+            <h2>Address</h2>
+            <a href="/">Submit Video</a> <a href="/">Ambassadors</a>
+            <a href="/">Agency</a>
+          </div>
+          <div class="footer__link--items">
+            <h2>Social Media</h2>
+            <a href="https://www.instagram.com/" target="_blank">Instagram</a> <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com/" target="_blank">Youtube</a> <a href="https://twitter.com/?lang=en-GB" target="_blank">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <section class="social__media">
+        <div class="social__media--wrap">
+          <div class="footer__logo">
+            <a href="#home" id="footer__logo">Learnalytics</a>
+          </div>
+          <p class="website__rights">© Learnalytics 2023. All rights reserved</p>
+          <div class="social__icons">
+            <a href="https://www.facebook.com/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://www.instagram.com/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a href="https://www.youtube.com/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-youtube"></i
+            ></a>
+            <a href="https://uk.linkedin.com/" class="social__icon--link" target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a href="https://twitter.com/?lang=en-GB" class="social__icon--link" target="_blank"
+              ><i class="fab fa-twitter"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+
+    </div>
+    <!--Back to Top Button-->
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back to Top</button>
+    <script src="app.js"></script>
+  </body>
+</html>
